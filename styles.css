@@ -1,0 +1,93 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.outerbox{
+    background-color: rgba(75, 14, 14, 0.811);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.innerbox{
+    background-color: rgba(121, 56, 9, 0.91);
+    padding: 40px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: auto;
+}
+.choices{
+    margin-bottom: 30%;
+    display: flex;
+    flex-direction: row;
+}
+.computerchoice{
+    float: right;
+    margin: 20px;
+    text-decoration: underline;
+}
+.userchoice{
+    float: left;
+    margin: 20px;
+    text-decoration: underline;
+    margin-right: 100px;
+
+    
+}
+.userchoicebuttons{
+    display: inline-flex;
+    gap: 50px;
+
+}
+button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: rgb(5, 15, 41);
+    color: aliceblue;
+    cursor: pointer;
+    box-shadow: 0px 5px 25px black;
+
+}
+.result{
+    text-decoration: underline;
+    margin-bottom: 100px;
+}
+h2{
+    text-align: center;
+    
+}
+.text{
+    background-color: rgb(5, 15, 41);
+    
+    color: whitesmoke;
+    border-radius: 10px;
+    padding: 10px 20px;
+    display: none;
+}
+.maintext{
+    background-color: rgb(83, 13, 13);
+    color: azure;
+    padding: 10px 15px;
+    border-radius: 150px;
+    border: 2px white solid;
+    box-shadow: 0px 5px 25px black;
+
+}
+
+#heading{
+    font-size: 45px;
+    padding: 10px 20px;
+    color: aliceblue;
+    text-decoration: underline;
+    background-color: brown;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    box-shadow: 0px 10px 50px black;
+}
